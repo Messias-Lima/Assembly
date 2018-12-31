@@ -1,0 +1,24 @@
+8051 Assembler           Version 1.00   12/31/118 19:48:51    Page 1
+C:\Users\Messias\Documents\8051\ex2\ex2.a51
+
+
+
+    1 0000              ;projeto ex2
+    2 0000              ;
+    3 0000              ;Altera o nivel lógico do PORT0
+    4 0000              ;
+    5 0000              ;MCU: AT89C51
+    6 0000              
+    7 0000                          org                 0000h           ;Origem no endereço 00h de memória
+    8 0000                        
+    9 0000              inicio:
+   10 0000                      
+   11 0000 758000                  mov                  p0, #00h        ;Todo PORT0 em nivel lógico baixo
+   12 0003 7580FF                  mov                  p0, #0FFh       ;Todo PORT0 em nivel lógico alto                    
+   13 0006 020000                  jmp                  inicio          ;Pula para o inicio
+   14 0009                         end                                  ;Final do programa
+
+Defined Symbols:
+
+Defined Labels:
+  INICIO                                    000000  0

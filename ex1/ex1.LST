@@ -1,0 +1,25 @@
+8051 Assembler           Version 1.00   12/31/118 02:32:30    Page 1
+C:\Users\Messias\Documents\8051\ex1\ex1.a51
+
+
+
+    1 0000              ;Introdução - Exemplo de programa
+    2 0000              
+    3 0000                      org             000h            ;Origem do programa 00h
+    4 0000              
+    5 0000              
+    6 0000              inicio:
+    7 0000              
+    8 0000 74FF                 mov     a, #0ffh
+    9 0002 7400                 mov     a, #00h
+   10 0004 7855                 mov     r0, #55h
+   11 0006 75F0AA               mov     b, #0aah
+   12 0009              
+   13 0009 020009               jmp     $
+   14 000C                      
+   15 000C                      end
+
+Defined Symbols:
+
+Defined Labels:
+  INICIO                                    000000  0
